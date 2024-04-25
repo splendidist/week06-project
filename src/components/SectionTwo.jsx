@@ -29,7 +29,7 @@ export default function SectionTwo() {
       <img
         onClick={addCookie}
         className="cookie-img"
-        src="./public/assets/cookie.png"
+        src="./assets/cookie.png"
         alt="cookie"
       ></img>
       <p>{cookies}</p>
@@ -37,7 +37,7 @@ export default function SectionTwo() {
       <button onClick={buyUpgrade}>upgrade</button>
       <img
         className="user-cat"
-        src="./public/assets/exotic-shorthair.png"
+        src="./assets/exotic-shorthair.png"
         alt="exotic shorthair cat"
       ></img>
       <input></input>
