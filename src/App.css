@@ -4,7 +4,7 @@
 }
 
 body {
-  cursor: url("./assets/cat cursor.png"), auto;
+  cursor: url("./assets/paw.png"), auto;
   background-color: wheat;
   padding: 20px;
 }
@@ -112,3 +112,19 @@ h2 {
 }
 
 /* MEDIA QUERIES */
+
+/* modal */
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: wheat;
+  border: 5px solid chocolate;
+  border-radius: 12px;
+  position: absolute;
+  width: 55vw;
+  top: 130px;
+  left: 22.5vw;
+  bottom: 130px;
+}

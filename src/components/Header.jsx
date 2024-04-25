@@ -1,11 +1,15 @@
+import Modal from "./Modal.jsx";
+
 export default function Header() {
   return (
     <div>
       <header>
-        <button className="modal-button">about</button>
+        <Modal />
         <h1>catisserie</h1>
-        <button className="modal-button">how to play</button>
+        <Modal />
       </header>
     </div>
   );
 }
+
+// <button className="modal-button">how to play</button>
