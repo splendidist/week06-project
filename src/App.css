@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  cursor: url("./assets/cat cursor.png"), auto;
+  background-color: wheat;
+  padding: 20px;
+}
+
+/* HEADER */
+
+header {
+  background-color: sandybrown;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h1,
+h2,
+p,
+.modal-button {
+  font-family: Abril Fatface;
+  color: white;
+}
+
+.modal-button {
+  padding: 5px 10px;
+  background-color: tan;
+  border: 5px solid chocolate;
+}
+
+.modal-button:hover {
+  cursor: pointer;
+}
+
+.modal-button:active {
+  transform: translateY(5px);
+}
+
+/*  MAIN */
+
+main {
+  background-color: sandybrown;
+  padding: 2vh 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 71vh;
+}
+
+/* UPGRADES */
+
+.section-1,
+.section-3 {
+  height: 50vh;
+  width: 18vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.upgrade-img,
+.shop-img {
+  height: 100px;
+  width: auto;
+  margin: 0px 20px;
+}
+
+.upgrade-img:hover,
+.shop-img:hover,
+.cookie-img {
+  cursor: pointer;
+}
+
+.upgrade-img:active,
+.shop-img:active,
+.cookie-img:active {
+  transform: translateY(5px);
+}
+
+/* COOKIE AND CAT */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cookie-img {
+  height: 400px;
+  width: auto;
+  padding-bottom: 40px;
+}
+
+.user-cat {
+  height: 130px;
+  width: auto;
+  padding: 35px 0px 20px 0px;
+}
+
+/* MEDIA QUERIES */
