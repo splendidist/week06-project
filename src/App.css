@@ -4,15 +4,21 @@
 }
 
 body {
-  cursor: url("./assets/paw.png"), auto;
+  cursor: url("/assets/paw.png"), auto;
   background-color: wheat;
   padding: 20px;
+  font-family: Abril Fatface;
+}
+
+.background-svg {
+  background-image: url("/assets/background-img.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* HEADER */
 
 header {
-  background-color: sandybrown;
   height: 20vh;
   display: flex;
   justify-content: space-around;
@@ -21,24 +27,48 @@ header {
 
 h1 {
   font-size: 56px;
+  padding-top: 50px;
 }
 
 h1,
-h2,
 p,
 .modal-button {
   font-family: Abril Fatface;
   color: white;
 }
 
+/* MODALS */
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: wheat;
+  border: 10px solid chocolate;
+  position: absolute;
+  width: 55vw;
+  top: 130px;
+  left: 22.5vw;
+  bottom: 130px;
+}
+
+.modal-content {
+  color: chocolate;
+  padding: 0px 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .modal-button {
   padding: 5px 10px;
-  background-color: tan;
-  border: 5px solid chocolate;
+  background-color: #f4a460;
+  border: 5px solid wheat;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
 .modal-button:hover {
-  cursor: pointer;
+  cursor: url("/assets/paw.png"), auto;
 }
 
 .modal-button:active {
@@ -48,7 +78,6 @@ p,
 /*  MAIN */
 
 main {
-  background-color: sandybrown;
   padding: 2vh 2vw;
   display: flex;
   justify-content: space-around;
@@ -60,16 +89,24 @@ main {
 
 .section-1,
 .section-3 {
-  height: 50vh;
+  height: 48vh;
   width: 18vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: wheat;
+  padding: 25px;
+  border-radius: 60px;
 }
 
 h2 {
   width: 100%;
   text-align: center;
+  color: #f4a460;
+}
+
+.price-tag {
+  height: 75px;
 }
 
 .upgrade-img,
@@ -77,12 +114,6 @@ h2 {
   height: 100px;
   width: auto;
   margin: 0px 20px;
-}
-
-.upgrade-img:hover,
-.shop-img:hover,
-.cookie-img {
-  cursor: pointer;
 }
 
 .upgrade-img:active,
@@ -112,19 +143,3 @@ h2 {
 }
 
 /* MEDIA QUERIES */
-
-/* modal */
-.modal {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: wheat;
-  border: 5px solid chocolate;
-  border-radius: 12px;
-  position: absolute;
-  width: 55vw;
-  top: 130px;
-  left: 22.5vw;
-  bottom: 130px;
-}

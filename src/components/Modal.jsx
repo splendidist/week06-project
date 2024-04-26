@@ -2,16 +2,19 @@ import { useState } from "react";
 import { createPortal } from "react-dom";
 import ModalContent from "./ModalContent.jsx";
 
-export default function Modal() {
+export default function Modal({ buttonText, modalContent }) {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
       <button className="modal-button" onClick={() => setShowModal(true)}>
-        About
+        {buttonText}
       </button>
       {showModal &&
         createPortal(
-          <ModalContent onClose={() => setShowModal(false)} />,
+          <ModalContent
+            content={modalContent}
+            onClose={() => setShowModal(false)}
+          />,
           document.body
         )}
     </>

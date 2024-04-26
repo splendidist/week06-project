@@ -1,7 +1,7 @@
-export default function ModalContent({ onClose }) {
+export default function ModalContent({ content, onClose }) {
   return (
     <div className="modal">
-      <div>Welcome to Catisserie</div>
+      <div className="modal-content">{content}</div>
       <button className="modal-button" onClick={onClose}>
         Close
       </button>
