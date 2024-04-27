@@ -80,8 +80,15 @@ export default function Main() {
           src="./assets/exotic-shorthair.png"
           alt="exotic shorthair cat"
         ></img>
-        <input type="text" placeholder="Username" required />
-        <input type="submit" />
+        <div className="input-form">
+          <input
+            className="input-box"
+            type="text"
+            placeholder="Username"
+            required
+          />
+          <input className="input-button" type="submit" />
+        </div>
       </div>
 
       <div className="section-3">
