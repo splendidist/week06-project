@@ -3,6 +3,8 @@ export default function ModalContent({
   paragraph1,
   paragraph2,
   paragraph3,
+  paragraph4,
+  paragraph5,
   onClose,
 }) {
   return (
@@ -13,6 +15,8 @@ export default function ModalContent({
         <p>{paragraph1}</p>
         <p>{paragraph2}</p>
         <p>{paragraph3}</p>
+        <p>{paragraph4}</p>
+        <p>{paragraph5}</p>
       </div>
 
       <button className="modal-button" onClick={onClose}>

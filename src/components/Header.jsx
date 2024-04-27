@@ -16,11 +16,15 @@ export default function Header() {
     buttonText: "How to Play",
     heading: "How to Play",
     paragraph1:
-      "Click the Cookie: The heart of the game lies in clicking the cookie!",
+      "Click the Cookie: The heart of the game lies in clicking the cookie! Each click earns you cookies, which you can use to buy upgrades and enhance your gameplay experience.",
     paragraph2:
-      "Each click earns you cookies, which you can use to buy upgrades and enhance your gameplay experience.Name Your Cat: Give your adorable feline companion a name to make them truly yours. Your cat will accompany you throughout your cookie-clicking journey, providing moral support and endless cuteness. Buy Upgrades: Use your hard-earned cookies to purchase café-themed upgrades. These upgrades range from delicious food and drink items to enhancements that boost your cookie production. Keep an eye on your cookie count and invest wisely to maximize your progress.",
+      "Name Your Cat: Give your adorable feline companion a name to make them truly yours. Your cat will accompany you throughout your cookie-clicking journey, providing moral support and endless cuteness.",
     paragraph3:
-      "Share Your Success: Don't forget to share your cookie-clicking accomplishments with friends and fellow players. Compare cookie counts, exchange tips, and revel in the joy of collective cookie conquest. Have Fun: Above all, remember to have fun! Catisserie is designed to be a relaxing and enjoyable experience. Take your time, savor the moment, and let the soothing ambiance of the café world wash over you as you click your way to cookie glory.",
+      "Buy Upgrades: Use your hard-earned cookies to purchase café-themed upgrades. These upgrades range from delicious food and drink items to enhancements that boost your cookie production. Keep an eye on your cookie count and invest wisely to maximize your progress.",
+    paragraph4:
+      "Share Your Success: Don't forget to share your cookie-clicking accomplishments with friends and fellow players. Compare cookie counts, exchange tips, and revel in the joy of collective cookie conquest.",
+    paragraph5:
+      " Have Fun: Above all, remember to have fun! Catisserie is designed to be a relaxing and enjoyable experience. Take your time, savor the moment, and let the soothing ambiance of the café world wash over you as you click your way to cookie glory.",
   };
   return (
     <div>

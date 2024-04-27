@@ -8,6 +8,8 @@ export default function Modal({
   paragraph1,
   paragraph2,
   paragraph3,
+  paragraph4,
+  paragraph5,
 }) {
   const [showModal, setShowModal] = useState(false);
   return (
@@ -23,6 +25,8 @@ export default function Modal({
             paragraph1={paragraph1}
             paragraph2={paragraph2}
             paragraph3={paragraph3}
+            paragraph4={paragraph4}
+            paragraph5={paragraph5}
             onClose={() => setShowModal(false)}
           />,
           document.body
