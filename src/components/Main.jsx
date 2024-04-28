@@ -4,12 +4,23 @@ import accessories from "./accessories";
 import { useState, useEffect, useRef } from "react";
 
 export default function Main() {
-  const [cookies, setCookies] = useState(0);
-  const [cps, setCps] = useState(0);
+  const [cookies, setCookies] = useState(
+    parseInt(localStorage.getItem("cookies")) || 0
+  );
+  const [cps, setCps] = useState(
+    parseInt(localStorage.getItem("cookiesPerSecond")) || 0
+  );
   const [displayTotal, setDisplayTotal] = useState(0);
   const refCps = useRef(0);
   const refTotal = useRef(0);
   const refOldTotal = useRef(0);
+
+  //store cookies and cps to local storage
+
+  useEffect(() => {
+    localStorage.setItem("cookies", displayTotal.toString());
+    localStorage.setItem("cookiesPerSecond", cps.toString());
+  }, [displayTotal, cps]);
 
   useEffect(() => {
     refCps.current = cps;
@@ -36,7 +47,7 @@ export default function Main() {
     };
   }, []);
 
-  //click cookie function
+  //cookies per second function
 
   function addCookie() {
     setCookies((currentCookies) => {
@@ -44,10 +55,21 @@ export default function Main() {
     });
   }
 
+  //click cookie function
+
+  function addOneCookie() {
+    setCookies((currentCookies) => {
+      return currentCookies + 1;
+    });
+  }
+
   //buy upgrade function
 
-  const buyUpgrade = (value) => {
-    setCps(cps + value);
+  const buyUpgrade = (value, cost) => {
+    if (cookies >= cost) {
+      setCps(cps + value);
+      setCookies(cookies - cost);
+    }
   };
 
   return (
@@ -58,7 +80,7 @@ export default function Main() {
         {data.map((upgrade) => (
           <div
             key={upgrade.alt + upgrade.id}
-            onClick={() => buyUpgrade(upgrade.inc)}
+            onClick={() => buyUpgrade(upgrade.inc, upgrade.cost)}
           >
             <ImgButton src={upgrade.src} alt={upgrade.alt} />
           </div>
@@ -67,7 +89,7 @@ export default function Main() {
 
       <div className="section-2">
         <img
-          onClick={addCookie}
+          onClick={addOneCookie}
           className="cookie-img"
           src="./assets/cookie.png"
           alt="cookie"
