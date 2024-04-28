@@ -192,13 +192,13 @@ h2 {
   }
   .upgrade-img,
   .shop-img {
-    height: 50px;
+    height: 60px;
   }
 }
 
 /* TABLET */
 
-@media (min-width: 750px) {
+@media (min-width: 470px) {
   h1 {
     font-size: 48px;
   }
@@ -230,7 +230,7 @@ h2 {
 
 /* DESKTOP */
 
-@media (min-width: 1024px) {
+@media (min-width: 850px) {
   body {
     height: calc(100vh - 40px);
   }
@@ -262,7 +262,7 @@ h2 {
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1840px) {
   .background-svg {
     background-image: url("/assets/background-img.svg");
   }
