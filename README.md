@@ -29,10 +29,12 @@ Future Additions
 Some things I want to add to this app in the future include:
 
 - Allowing the user to use the accessories shop
-- Allowing the user to input their username and have it replace the placeholder
 - Making the app accessible with tab and enter
 - Allow the user to change the cat icon with a button either side of the cat
 - Have a restart button
+- Fixing a few bugs with the cookie button/refresh
+- Sorting my app.css file into different files
+- Tidying the main.jsx return html
 
 🎯 Were there any requirements or goals that you were not quite able to achieve?
 
