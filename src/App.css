@@ -97,7 +97,7 @@ main {
 .section-3 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: wheat;
   border-radius: 20px;
   height: 30vh;
