@@ -11,7 +11,7 @@ const data = [
   },
   {
     id: 2,
-    inc: 2,
+    inc: 3,
     cost: 20,
     displayCost: "20 🍪",
     src: "./assets/coffee.png",
@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 3,
-    inc: 3,
+    inc: 5,
     cost: 30,
     displayCost: "30 🍪",
     src: "./assets/bagels.png",
@@ -27,7 +27,7 @@ const data = [
   },
   {
     id: 4,
-    inc: 4,
+    inc: 7,
     cost: 40,
     displayCost: "40 🍪",
     src: "./assets/egg.png",
@@ -35,7 +35,7 @@ const data = [
   },
   {
     id: 5,
-    inc: 5,
+    inc: 9,
     cost: 50,
     displayCost: "50 🍪",
     src: "./assets/croissant.png",
@@ -43,7 +43,7 @@ const data = [
   },
   {
     id: 6,
-    inc: 6,
+    inc: 11,
     cost: 60,
     displayCost: "60 🍪",
     src: "./assets/avocado-toast.png",
