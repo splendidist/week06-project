@@ -24,6 +24,17 @@ Stretch Goals
 - I attempted to make the app responsive using media queries, and used lighthouse to ensure a good accessibility report
 - I attempted to make modals using components, using arrays in Header.jsx
 
+Future Additions
+
+Some things I want to add to this app in the future include:
+
+- Allowing the user to use the accessories shop
+- Allowing the user to input their username and have it replace the placeholder
+- Adding prices to the upgrade so the user knows how much they cost
+- Making the app accessible with tab and enter
+- Allow the user to change the cat icon with a button either side of the cat
+- Have a restart button
+
 🎯 Were there any requirements or goals that you were not quite able to achieve?
 
 Although the user is able to purchase upgrade from the shop if they can afford them, and the cookies are subtracted and cps added, their are a few bugs:
@@ -35,7 +46,7 @@ Although the user is able to purchase upgrade from the shop if they can afford t
 
 I found using react the most difficult for this task. I understand the components e.g mapping through the buttons and using components, but some of the logic for the cookie clicker I think I overcomplicated intially which made it difficult to understand. I did find allowing the user to purchase upgrade items difficult, as I thought it should be possible by just adding setCookies(cookies - cost) to the buyUgrade function. I eventually got the function to work AFTER setting up local storage.
 
-I also think I could have used conditional rendering for my functions, but just did if statements because I understand them and to save time.
+I think I could have used conditional rendering for my functions, but just did if statements because I understand them and to save time. I also would have liked to have split up my App.css into different files to keep them organised/tidy but didn't have enough time.
 
 🍪 What went really well and what could have gone better?
 
