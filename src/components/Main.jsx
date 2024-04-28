@@ -54,7 +54,6 @@ export default function Main() {
     <main>
       <div className="section-1">
         <h2>Upgrades</h2>
-        {/* <img className="price-tag" src="/assets/price-tag.svg" /> */}
         {/* UPGRADES ARRAY */}
         {data.map((upgrade) => (
           <div
