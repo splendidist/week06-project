@@ -35,6 +35,8 @@ Although the user is able to purchase upgrade from the shop if they can afford t
 
 I found using react the most difficult for this task. I understand the components e.g mapping through the buttons and using components, but some of the logic for the cookie clicker I think I overcomplicated intially which made it difficult to understand. I did find allowing the user to purchase upgrade items difficult, as I thought it should be possible by just adding setCookies(cookies - cost) to the buyUgrade function. I eventually got the function to work AFTER setting up local storage.
 
+I also think I could have used conditional rendering for my functions, but just did if statements because I understand them and to save time.
+
 🍪 What went really well and what could have gone better?
 
 Using CSS and mapping through the buttons went really well. I also think making the modals went well too as this isn't something I've done before. I think the logic of the cookie clicker game would have gone better if I understood JavaScript and React more.
@@ -60,9 +62,9 @@ https://github.com/splendidist/week04-project/tree/main - previous cookie clicke
   });
   }
 
-  - I struggled to get this line of code to work for a long time: setCookies(cookies - cost); but got it to work after setting up the local storage.
-  - I have a bug where when the user loads the page, it removes 1 cookie from their current cookies (e.g if you click the cookie 5 times and refresh the page, you now have 4 cookies)
-  - I also have a bug where the first cookie click does nothing
+- I struggled to get this line of code to work for a long time: setCookies(cookies - cost); but got it to work after setting up the local storage.
+- I have a bug where when the user loads the page, it removes 1 cookie from their current cookies (e.g if you click the cookie 5 times and refresh the page, you now have 4 cookies)
+- I also have a bug where the first cookie click does nothing
 
 ✨ Icon Sources
 
