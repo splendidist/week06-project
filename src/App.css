@@ -213,8 +213,8 @@ h2 {
   }
   .upgrade-img,
   .shop-img {
-    height: 90px;
-    margin: 0px 50px;
+    height: 70px;
+    margin: 0px 30px;
   }
   .cookie-img {
     height: 400px;
@@ -228,6 +228,25 @@ h2 {
   }
   .modal-content p {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 600px) {
+  .upgrade-img,
+  .shop-img {
+    margin: 0px 40px;
+  }
+}
+
+@media (min-width: 680px) {
+  .section-1,
+  .section-3 {
+    height: 20vh;
+  }
+  .upgrade-img,
+  .shop-img {
+    height: 60px;
+    margin: 0px 10px;
   }
 }
 
@@ -260,7 +279,7 @@ h2 {
   }
   .upgrade-img,
   .shop-img {
-    height: 75px;
+    height: 65px;
     margin: 0px 20px;
   }
   .cookie-img {
@@ -268,7 +287,14 @@ h2 {
     padding-top: 40px;
   }
   .user-cat {
-    height: 100px;
+    height: 80px;
+  }
+  .input-box {
+    padding: 8px 0px;
+  }
+
+  .input-button {
+    padding: 8px 5px;
   }
 }
 
