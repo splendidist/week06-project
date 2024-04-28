@@ -30,7 +30,6 @@ Some things I want to add to this app in the future include:
 
 - Allowing the user to use the accessories shop
 - Allowing the user to input their username and have it replace the placeholder
-- Adding prices to the upgrade so the user knows how much they cost
 - Making the app accessible with tab and enter
 - Allow the user to change the cat icon with a button either side of the cat
 - Have a restart button

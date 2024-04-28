@@ -160,6 +160,11 @@ h2 {
   padding: 35px 0px 20px 0px;
 }
 
+.input-name {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .input-box {
   text-align: center;
   border: none;
@@ -343,6 +348,9 @@ h2 {
   }
   .user-cat {
     height: 110px;
+  }
+  .input-name {
+    font-size: 20px;
   }
 }
 

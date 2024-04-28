@@ -2,6 +2,7 @@ import ImgButton from "./ImgButton";
 import data from "./upgrades";
 import accessories from "./accessories";
 import { useState, useEffect, useRef } from "react";
+import MyForm from "./Form";
 
 export default function Main() {
   const [cookies, setCookies] = useState(
@@ -109,15 +110,7 @@ export default function Main() {
           src="./assets/exotic-shorthair.png"
           alt="exotic shorthair cat"
         ></img>
-        <div className="input-form">
-          <input
-            className="input-box"
-            type="text"
-            placeholder="Username"
-            required
-          />
-          <input className="input-button" type="submit" />
-        </div>
+        <MyForm />
         {/* <button onClick={resetGame}>Reset</button> */}
       </div>
 
