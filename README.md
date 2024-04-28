@@ -1,6 +1,7 @@
 🎯 Please mention the requirements you met and which goals you achieved for this assignment.
 
 Project Plan
+
 Before building the app for this project, I made a design using Figma. I took some inspiration from my previous cookie clicker app, and added some elements that I had wanted to use in my previously, such as a username input, and a shop for accessories for the cat :3 I made some designs for modals that tell the user how to play the game and give some context to the game theme. I also listed what parts of the app I wanted to be interactive for the user, and made some svgs for the app. You can find my desing plan here:
 https://www.figma.com/file/DnwAjek2IncDxLwOmPEKUL/week06-project-wireframe?type=design&node-id=0%3A1&mode=design&t=wIbhlkFmeqY7c8VL-1
 
@@ -41,8 +42,11 @@ Using CSS and mapping through the buttons went really well. I also think making 
 🍪 Detailing useful external sources that helped you complete the assignment (e.g Youtube tutorials).
 
 https://www.w3schools.com/howto/howto_css_modals.asp - modal boxes
+
 https://react.dev/reference/react-dom/createPortal#rendering-a-modal-dialog-with-a-portal - modals in react
+
 https://codesandbox.io/p/sandbox/react-dev-6c6clm?file=%2Fsrc%2Fstyles.css%3A59%2C1-72%2C2&utm_medium=sandpack - onlick event for imported components
+
 https://github.com/splendidist/week04-project/tree/main - previous cookie clicker code
 
 🍪 Describing errors or bugs you encountered while completing your assignment.
@@ -61,5 +65,7 @@ https://github.com/splendidist/week04-project/tree/main - previous cookie clicke
   - I also have a bug where the first cookie click does nothing
 
 ✨ Icon Sources
+
 Cookie icon - https://www.flaticon.com/authors/smashicons
+
 All other icons and cat cursor - https://www.flaticon.com/authors/freepik
