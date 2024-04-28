@@ -76,6 +76,7 @@ https://github.com/splendidist/week04-project/tree/main - previous cookie clicke
 - I struggled to get this line of code to work for a long time: setCookies(cookies - cost); but got it to work after setting up the local storage.
 - I have a bug where when the user loads the page, it removes 1 cookie from their current cookies (e.g if you click the cookie 5 times and refresh the page, you now have 4 cookies)
 - I also have a bug where the first cookie click does nothing
+- I also find when you spam the cookie button the current cookies displayed lags behind a bit
 
 ✨ Icon Sources
 

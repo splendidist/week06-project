@@ -134,6 +134,11 @@ h2 {
   transform: translateY(5px);
 }
 
+.upgrade-cost {
+  color: chocolate;
+  font-size: 10px;
+}
+
 /* COOKIE AND CAT */
 
 .section-2 {
@@ -193,6 +198,9 @@ h2 {
   .upgrade-img,
   .shop-img {
     height: 60px;
+  }
+  .upgrade-cost {
+    font-size: 14px;
   }
 }
 
@@ -326,6 +334,9 @@ h2 {
     height: 100px;
     margin: 0px 40px;
   }
+  .upgrade-cost {
+    font-size: 20px;
+  }
   .cookie-img {
     height: 400px;
     padding-bottom: 40px;
@@ -359,5 +370,8 @@ h2 {
   .shop-img {
     height: 150px;
     margin: 0px 40px;
+  }
+  .upgrade-cost {
+    font-size: 25px;
   }
 }

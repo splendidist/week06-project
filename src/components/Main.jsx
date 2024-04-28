@@ -90,6 +90,7 @@ export default function Main() {
             onClick={() => buyUpgrade(upgrade.inc, upgrade.cost)}
           >
             <ImgButton src={upgrade.src} alt={upgrade.alt} />
+            <p className="upgrade-cost">{upgrade.displayCost}</p>
           </div>
         ))}
       </div>
@@ -129,6 +130,7 @@ export default function Main() {
             // onClick={() => buyUpgrade(upgrade.inc)}
           >
             <ImgButton src={upgrade.src} alt={upgrade.alt} />
+            <p className="upgrade-cost">{upgrade.displayCost}</p>
           </div>
         ))}
       </div>
