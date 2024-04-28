@@ -72,6 +72,13 @@ export default function Main() {
     }
   };
 
+  //reset function
+
+  // function resetGame() {
+  //   localStorage.setItem("cookies", 0);
+  //   localStorage.setItem("cookiesPerSecond", 0);
+  // }
+
   return (
     <main>
       <div className="section-1">
@@ -110,10 +117,11 @@ export default function Main() {
           />
           <input className="input-button" type="submit" />
         </div>
+        {/* <button onClick={resetGame}>Reset</button> */}
       </div>
 
       <div className="section-3">
-        <h2>accessories</h2>
+        <h2>Accessories</h2>
         {/* ACCESSORIES ARRAY */}
         {accessories.map((upgrade) => (
           <div

@@ -27,3 +27,7 @@ https://codesandbox.io/p/sandbox/react-dev-6c6clm?file=%2Fsrc%2Fstyles.css%3A59%
 
 - Images not appearing on vercel when app was deployed. I fixed this by moving all of my images to the public folder.
 - I have a bug where the cookie cannot be clicked until an upgrade has been bought
+
+Artist Sources
+cookie icon - https://www.flaticon.com/authors/smashicons
+other icons - https://www.flaticon.com/authors/freepik
